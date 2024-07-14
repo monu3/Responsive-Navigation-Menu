@@ -69,7 +69,8 @@ nav {
 }
 
 /* Dropdown menu and mega box styles */
-.drop-menu, .mega-box {
+.drop-menu,
+.mega-box {
   position: absolute;
   background: #2e2c77;
   top: 70px;
@@ -152,7 +153,9 @@ nav {
 }
 
 /* Button styles (hidden by default) */
-.btn, .menu-btn, .close-btn {
+.btn,
+.menu-btn,
+.close-btn {
   color: #fff;
   font-size: 20px;
   cursor: pointer;
@@ -165,7 +168,8 @@ nav {
   top: 10px;
 }
 
-.menu-btn, .close-btn {
+.menu-btn,
+.close-btn {
   width: 60px;
   height: 60px;
   justify-content: center;
@@ -194,7 +198,6 @@ nav {
     box-shadow: 0 15px 15px rgba(0, 0, 0, 0.18);
     transition: all 0.3s ease;
   }
-
 
   .nav-links li a,
   .nav-links .mobile-item {
@@ -280,7 +283,13 @@ nav {
 }
 
 /* Responsive logo sizes */
-@media screen and (max-width: 780px) { .logo img { width: 80%; } }
-/* @media screen and (max-width: 758px) { .logo img { width: 150px; } }
-@media screen and (max-width: 733px) { .logo img { width: 100px; } } */
-@media screen and (max-width: 600px) { .logo img { width: 200px; } }
+@media screen and (max-width: 780px) {
+  .logo img {
+    width: 70%;
+  }
+}
+@media screen and (max-width: 600px) {
+  .logo img {
+    width: 200px;
+  }
+}
