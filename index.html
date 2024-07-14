@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Nav bar copy</title>
+    <link rel="stylesheet" href="navbar.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <nav>
+      <div class="wrapper">
+        <div class="logo">
+          <img
+            src="https://texasintl.edu.np/wp-content/uploads/2021/06/cropped-cropped-texas-intl-college.png"
+            alt=""
+          />
+        </div>
+        <ul class="nav-links" onclick="this.classList.toggle('open')">
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About</a></li>
+          <li>
+            <a href="#" class="desktop-item">Faculties</a>
+            <ul class="drop-menu">
+              <li><a href="#">BSc.CSIT</a></li>
+              <li><a href="#">BCA</a></li>
+              <li><a href="#">BHM</a></li>
+              <li><a href="#">BBM</a></li>
+            </ul>
+          </li>
+          <li>
+            <a href="#" class="desktop-item">Services</a>
+            <div class="mega-box">
+              <div class="content">
+                <div class="row">
+                  <img src="image/service img.jpg" alt="" />
+                </div>
+                <div class="row">
+                  <header>lab Services</header>
+                  <ul class="mega-links">
+                    <li><a href="#">Graphics Lab</a></li>
+                    <li><a href="#">science Lab</a></li>
+                    <li><a href="#">physic Lab</a></li>
+                  </ul>
+                </div>
+                <div class="row">
+                  <header>Health Services</header>
+                  <ul class="mega-links">
+                    <li><a href="#">Personal consultant</a></li>
+                    <li><a href="#">Rest Room</a></li>
+                    <li><a href="#">Seperate Health Care</a></li>
+                  </ul>
+                </div>
+                <div class="row">
+                  <header>Internet services</header>
+                  <ul class="mega-links">
+                    <li><a href="#">Own Personal Internet</a></li>
+                    <li><a href="#">Security</a></li>
+                    <li><a href="#">Smart Board</a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li><a href="#">Contact Us</a></li>
+        </ul>
+        <div class="btn menu-btn" onclick="toggleMenu()">
+          <i class="fa-solid fa-bars"></i>
+        </div>
+        <div class="btn close-btn" onclick="toggleMenu()">&#10005;</div>
+      </div>
+    </nav>
+
+    <div class="body-text">
+      <div class="title">Responsive Navbar</div>
+      <div class="sub-title">using only HTML & CSS</div>
+    </div>
+
+    <script src="index.js">
+      // function toggleMenu() {
+      //   const navLinks = document.querySelector(".nav-links");
+      //   const menuBtn = document.querySelector(".menu-btn");
+      //   const closeBtn = document.querySelector(".close-btn");
+
+      //   navLinks.classList.toggle("show");
+
+      //   if (navLinks.classList.contains("show")) {
+      //     menuBtn.style.display = "none";
+      //     closeBtn.style.display = "flex";
+      //   } else {
+      //     menuBtn.style.display = "flex";
+      //     closeBtn.style.display = "none";
+      //   }
+      // }
+      // // Add click event listeners to dropdown items
+      // document.querySelectorAll(".mobile-item").forEach((item) => {
+      //   item.addEventListener("click", (event) => {
+      //     const dropMenu = event.target.nextElementSibling;
+      //     dropMenu.classList.toggle("show");
+      //   });
+      // });
+
+    </script>
+  </body>
+</html>
