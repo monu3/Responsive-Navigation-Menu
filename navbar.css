@@ -204,7 +204,7 @@ nav {
   .menu {
     position: relative;
     padding: 30px;
-    background: #e8e8f3;
+    background: #05043e;
     border-radius: 100%;
     cursor: pointer;
     box-shadow: 7px 7px 15px rgba(55, 84, 170, 0.15),
@@ -218,7 +218,7 @@ nav {
   .menu::before,
   .menu::after {
     content: "";
-    background: #c3c2c7;
+    background: #7a5ee8;
     border-radius: 5px;
     width: 30px;
     height: 5px;
@@ -288,7 +288,7 @@ nav {
     padding: 30px;
     border-radius: 50%;
     cursor: pointer;
-    background: #e8e8f3;
+    background: #a7a4eb;
     position: absolute;
     bottom: 0;
     right: 0;
@@ -317,12 +317,10 @@ nav {
 
 /* Mobile styles */
 @media screen and (max-width: 600px) {
-
   .menu-container {
     display: none;
   }
 
-  
   .wrapper .nav-links {
     position: fixed;
     top: 70px;
